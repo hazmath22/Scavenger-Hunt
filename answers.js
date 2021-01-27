@@ -80,7 +80,7 @@ function check_ans6(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "134340"){
+  if (answer.value == "Risotto Groupon" || answer.value == "Risotto groupon" || answer.value == "risotto groupon"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
