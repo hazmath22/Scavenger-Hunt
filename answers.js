@@ -136,7 +136,7 @@ function check_ans10(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "truth" || answer.value == "Truth"){
+  if (answer.value == "raxacoricofallapatorius" || answer.value == "Raxacoricofallapatorius"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
