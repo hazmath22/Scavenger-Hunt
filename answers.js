@@ -65,7 +65,7 @@ function check_ans5(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "42069"){
+  if (answer.value == "Thamur" || answer.value=="thamur"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
