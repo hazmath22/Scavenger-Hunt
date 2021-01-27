@@ -49,7 +49,7 @@ function check_ans4(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "Starry night" || answer.value == "starry night"){
+  if (answer.value == "6th year" || answer.value == "6" || answer.value == "six" || answer.value == "Six"){
     right.style.display = "block";
     next.style.display = "inline";
     wrong.style.display = "none"
