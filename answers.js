@@ -34,7 +34,7 @@ function check_ans3(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "1132"){
+  if (answer.value == "Grievous" || answer.value == "grievous"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
