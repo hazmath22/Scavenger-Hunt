@@ -94,7 +94,7 @@ function check_ans7(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if ((answer.value == "Nathan" || answer.value == "Alex" || answer.value == "Howard" || answer.value == "nathan" || answer.value == "alex" || answer.value == "howard") && (answer2.value == "Nathan" || answer2.value == "Alex" || answer2.value == "Howard" || answer2.value == "nathan" || answer2.value == "alex" || answer2.value == "howard") && (answer3.value == "Nathan" || answer3.value == "Alex" || answer3.value == "Howard" || answer3.value == "nathan" || answer3.value == "alex" || answer3.value == "howard")){
+  if ((answer.value == "Redbeard" || answer.value == "redbeard")){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
@@ -136,7 +136,7 @@ function check_ans10(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "raxacoricofallapatorius" || answer.value == "Raxacoricofallapatorius"){
+  if (answer.value == "Blink" || answer.value == "blink"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
