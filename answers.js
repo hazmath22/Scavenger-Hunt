@@ -108,7 +108,7 @@ function check_ans8(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "MK" || answer.value == "mk"){
+  if (answer.value == "Destructo Disc" || answer.value == "destructo disc" || answer.value == "Destructo disc" || answer.value == "Destructodisc" || answer.value == "destructodisc"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
