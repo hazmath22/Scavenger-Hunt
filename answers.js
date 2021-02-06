@@ -122,7 +122,7 @@ function check_ans9(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "lethal" || answer.value == "Lethal"){
+  if (answer.value == "Qwjglsoljn" || answer.value == "qwjglsoljn"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
