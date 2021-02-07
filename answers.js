@@ -94,7 +94,7 @@ function check_ans7(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if ((answer.value == "Redbeard" || answer.value == "redbeard")){
+  if (answer.value == "Redbeard" || answer.value == "redbeard" || answer.value == "Red beard" || answer.value == "red beard"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
