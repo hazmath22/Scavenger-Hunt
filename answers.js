@@ -18,7 +18,7 @@ function check_ans2(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "Wonder Woman" || answer.value == "wonder woman" || answer.value == "aquaman" || answer.value == "Aquaman" && answer2.value=="Aquaman" || answer2.value == "Wonder Woman" || answer2.value == "wonder woman" || answer2.value == "aquaman"){
+  if (answer.value == "Wonder Woman" || answer.value == "wonder woman" || answer.value == "aquaman" || answer.value == "Aquaman" || answer.value == "Wonder woman" && answer2.value=="Aquaman" || answer2.value == "Wonder Woman" || answer2.value == "wonder woman" || answer2.value == "aquaman" || answer2.value == "Wonder woman"){
     right.style.display = "block";
     next.style.display = "inline";
     wrong.style.display = "none";
