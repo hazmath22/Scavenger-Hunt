@@ -108,7 +108,7 @@ function check_ans8(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "Otherworld" || answer.value == "otherworld" || answer.value == "Other world" || answer.value == "other world" || answer.value == "other world"){
+  if (answer.value == "Otherworld" || answer.value == "otherworld" || answer.value == "Other world" || answer.value == "other world"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
