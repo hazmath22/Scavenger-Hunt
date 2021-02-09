@@ -3,7 +3,7 @@ function check_ans1(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "Thor Ragnarok" || answer.value == "thor ragnarok" || answer.value == "Thor ragnarok"){
+  if (answer.value == "Thor Ragnarok" || answer.value == "thor ragnarok" || answer.value == "Thor ragnarok" || answer.value == "Thor: ragnarok" || answer.value == "Thor: Ragnarok" || answer.value == "Thor:Ragnarok" || answer.value == "Thor:ragnarok"){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
