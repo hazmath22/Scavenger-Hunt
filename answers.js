@@ -49,7 +49,7 @@ function check_ans4(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "6th year" || answer.value == "6" || answer.value == "six" || answer.value == "Six"){
+  if (answer.value == "6th year" || answer.value == "6" || answer.value == "six" || answer.value == "Six" || answer.value == "Sixth" || answer.value == "Sixth year" || answer.value == "Sixth Year" || answer.value == "sixth year"){
     right.style.display = "block";
     next.style.display = "inline";
     wrong.style.display = "none"
