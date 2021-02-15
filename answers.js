@@ -1,5 +1,4 @@
 
-
 function check_ans1(){
   var right = document.querySelector("#right");
   var answer = document.querySelector("#answer");
