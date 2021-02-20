@@ -140,6 +140,7 @@ function check_ans10(){
     next.style.display = "inline";
     wrong.style.display = "none"
   }
+}
 
  
 
